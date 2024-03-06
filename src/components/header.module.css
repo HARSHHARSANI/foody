@@ -1,0 +1,14 @@
+/* Change placeholder text color to white */
+.input-placeholder::placeholder {
+  color: white;
+}
+
+/* Remove default outline */
+.input-no-outline:focus {
+  outline: none;
+}
+.centerPlaceholder::placeholder {
+  text-align: left;
+  line-height: 1.5em;
+  color: white;
+}

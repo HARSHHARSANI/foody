@@ -1,0 +1,63 @@
+/* Hero.module.css */
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border: 0px;
+  margin-top: -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Hero.module.css */
+.card {
+  color: white;
+  display: flex;
+  overflow: hidden;
+  border-radius: 25px;
+  backdrop-filter: blur(120px); /* Apply backdrop filter for blurring */
+  -webkit-backdrop-filter: blur(40px); /* For better browser compatibility */
+  background-color: transparent; /* Ensure background is transparent */
+}
+
+.image-container {
+  flex: 0 0 auto;
+}
+
+.info-container {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Example background color with opacity */
+  border-radius: 10px; /* Add border radius */
+}
+.image-container img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.info-container h3 {
+  margin-top: 0;
+}
+
+.info-container p {
+  margin-bottom: 10px;
+}
+
+.info-container button {
+  margin-top: auto;
+}
